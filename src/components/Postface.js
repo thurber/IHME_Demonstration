@@ -18,12 +18,12 @@ var Postface = React.createClass({
         return <div>
             <p style={style}>
                A visualization of the ratio of overweight prevalence among males vs females
-               for the selected country and year. For instance, it the percentage of overweight 
+               for the selected country and year. For instance, if the percentage of overweight 
                males and females is the same, the country will be half blue and half pink. If 
                a larger percentage of males are overweight, the country will be shaded more blue 
-               than pink. The overall overweight prevalence within the given population is not 
-               directly shown in the visualization, but can be learned by hovering the mouse over
-               the displayed country or tapping and holding on a mobile device.
+               than pink. The overall overweight prevalence within the given population can be 
+               learned by hovering the mouse over the displayed country or tapping and holding on 
+               a mobile device.
             </p>
         </div>
     },

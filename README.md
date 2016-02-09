@@ -12,7 +12,7 @@ React based architecture built with npm and webpack. `src` files include a contr
 
 To build:
 ```
-npm install -D
+npm install
 webpack -p
 ```
 

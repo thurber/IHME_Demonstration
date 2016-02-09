@@ -1,0 +1,25 @@
+{
+  "name": "IHME Project",
+  "version": "1.0.0",
+  "description": "Visualization of select obesity and overweight prevelance data, as a demonstration project for a job application to the IHME.",
+  "author": "Travis Thurber",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "d3": "^3.5.14",
+    "file-loader": "^0.8.5",
+    "raw-loader": "^0.5.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "rc-slider": "^3.3.2",
+    "react-select": "^1.0.0-beta8"
+  }
+}

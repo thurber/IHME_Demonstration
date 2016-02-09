@@ -9,7 +9,8 @@ var D3 = require('d3'),
 var Preface = require('./components/Preface'),
     CountrySelector = require('./components/CountrySelector'),
     YearSlider = require('./components/YearSlider'),
-    WorldMap = require('./components/WorldMap')
+    WorldMap = require('./components/WorldMap'),
+    Postface = require('./components/Postface')
 
 // parse data
 //     key the data map by year, and include male and female
@@ -104,6 +105,7 @@ D3.csv('data/obesity_data.csv')
                         country={this.state.country}
                         year={this.state.year}
                     />
+                    <Postface/>
                 </div>
             },
 

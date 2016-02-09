@@ -29,7 +29,7 @@ var YearSlider = React.createClass({
             display: 'block',
             width: '100%',
             maxWidth: '400px',
-            margin: '20px 10px 50px',
+            margin: '20px 0 50px',
             textAlign: 'center',
         }
 
